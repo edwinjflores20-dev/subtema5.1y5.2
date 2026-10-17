@@ -1,0 +1,2 @@
+D:\subtema5.1y5.2\obj\Debug\subtema5.1_5.2.csproj.AssemblyReference.cache
+D:\subtema5.1y5.2\obj\Debug\subtema5.1_5.2.csproj.CoreCompileInputs.cache

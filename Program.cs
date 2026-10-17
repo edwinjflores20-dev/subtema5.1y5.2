@@ -25,6 +25,21 @@ namespace subtema5_5._1
             //IMPORTANTE CERRAR PARA GUARDAR LOS CAMBIOS
             nuevoDocumento.Close();
 
+static void GenerarReporte(){
+                //StreamReader leer un archivo de texto
+                StreamReader Leerdocumento = new StreamReader(nombreArchivo);
+
+                //Leerdocumento coca cola 600, galleta , agua
+                int contador = 0;
+                string linea;
+                while ((linea = Leerdocumento.ReadLine()) != null)
+{
+                    contador++;
+                    Console.WriteLine("producto: " + linea);
+}
+                Console.WriteLine("el total de productos en el almacen son: " + contador);
+                Leerdocumento.Close();
         }
     }
+}
 }
